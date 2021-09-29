@@ -1,0 +1,202 @@
+
+@media (max-width: 1315px) {
+
+
+    .header_nav {
+        margin-left: 0;
+    }
+
+    .header_nav-list {
+        padding: 0 4px;
+    }
+
+    .btn.header_nav-link {
+        margin-left: 8px;
+    }
+
+    .header_bars {
+        margin: 0 0px 4px;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    /* header */
+    .header_nav {
+        display: none;
+    }
+
+    .header {
+        position: relative;
+        flex-direction: column;
+        height: 125px;
+        background-color: #555555;
+    }
+
+    .header_bars {
+        padding: 8px;
+    }
+
+    .header_menu {
+        background-color: #555555;
+        text-align: left;       
+    }
+
+    .header_menu-tabmode {
+        display: block;
+    }
+
+    .header_menu-pcmode {
+        display: none;
+    }
+
+    .header_menu-close {
+        color: #fff;
+    }
+
+    /* slide */
+    .slide {
+        height: 1280px;
+    }
+
+    .slide_content select {
+        width: 930px;
+    }
+
+    .slide_iconbox {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .slide_iconbox-item {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    /* destination */
+    .imageBlock .image-box {
+        height: 930px;
+    }
+
+    .imageBlock .box-info,
+    .imageBlock .box-image-img {
+        height: 100%;
+    }
+
+    /* holiday */
+
+    .holiday-heading {
+        justify-content:flex-start;
+    }
+
+    .holiday-btn {
+        justify-content: center;
+    }
+
+    .holiday-btn-link { 
+        margin-left: 0;
+    }
+    /* beaches */
+    .beaches_image {
+        margin: 36px 0;
+        display: block;
+    }
+
+    .beaches_image-block img {
+        width: 100%;
+    }
+
+    .beaches_image-timebox {
+        width: 100%;
+    }
+
+    /* packages */
+
+    .packages_desc-info {
+        flex-direction: column;
+    }
+
+    /* footer */
+
+    .footer_copyright {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+    .sticky_block {
+        display: none;
+    }
+
+}
+
+@media (max-width: 979px) {
+    .imageBlock .image-box {
+        height: 718px;
+    }
+
+    .slide_content select {
+        width: 718px;
+    }
+
+    
+    
+    .holiday-heading {
+        margin-bottom: 36px;
+    }
+}
+
+@media (max-width: 759px) {
+    .imageBlock .image-box {
+        height: 430px;
+    }
+    .slide_content select {
+        width: 430px;
+    }
+
+    .beaches_image-block-img {
+        height: 240px;
+    }
+
+    .footer_search {
+        flex-direction: column;
+    }
+
+    .footer_search-input {
+        padding: 0;
+        margin-bottom: 32px;
+    }
+
+    .footer_search-input,
+    .footer_search-btn {
+        width: 100%;
+    }
+
+@media (max-width: 479px) {
+    .imageBlock .image-box {
+        height: 270px;
+    }
+
+    .slide_content select {
+        width: 270px;
+    }
+    
+     .slide_heading {
+        margin: 0 88px 50px;;
+    }
+    
+    .beaches_image-block-img {
+        height: 141px;
+    }
+
+    .beaches_image-timebox {
+        transform: unset;
+        left: unset;
+    }
+
+    .beaches_image-block {
+        margin-bottom: 380px;
+    }
+    
+    
+}
